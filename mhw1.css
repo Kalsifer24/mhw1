@@ -1,0 +1,143 @@
+body{
+  margin:0;
+}
+
+header{
+  text-align:center;
+}
+
+#navbar{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  font-family: Roboto Slab,serif;
+  color:white;
+  border:1px solid;
+  
+}
+
+.bar{
+  font-size:20px;
+  background-color:blue;
+  border-radius:10px;
+  padding:3px;
+}
+
+.bar:hover{
+  background-color:green;
+}
+
+#intestazione{
+  background-image:url(https://www.radioraheem.it/wp-content/uploads/2021/12/Bannerone-STUDIO-GHIBLI.jpg);
+  background-size:cover;
+  height:500px;
+  width:100%;
+}
+
+#overlay{
+  background-color:rgba(0, 0, 0, 0.3);
+  position:asbolute;
+  height:100%;
+  width:100%;
+}
+
+#titolo{
+  max-width:780px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:250px;
+  font-family: Roboto Slab,serif;
+  font-size: 36px;
+  color:white;
+  font-weight:normal;
+  
+}
+
+#propic{
+  height:100px;
+  margin-top:-50px;
+  border-radius:100%;
+  border:1px solid white;
+}
+
+#autore{
+  display:inline-block;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 18px;
+  color:rgb(51, 51, 51);
+  padding-bottom:5px;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 60px;
+}
+
+em{
+  font-style:italic;
+}
+
+.box{
+  display:flex;
+  padding:0px;
+  justify-content:center;
+  
+}
+
+.item{ 
+  width:66.67%;
+  
+}
+
+.numero{
+  margin-right:40px;
+  font-family: Roboto Slab,serif;
+  font-size:36px;
+  font-weight:bold;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.nome{
+  
+  font-family:Roboto Slab,serif;
+  font-size:36px;
+  font-weight:bold;
+  color: rgb(51, 51, 51);
+}
+
+.voto{
+  display:block;
+  font-weight:bold;
+  font-family: Source Sans Pro,sans-serif;
+  color: #42b4d6;
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.descrizione,.finale{
+  margin-bottom:20;
+  line-height: 125%;
+  font-family: Lato,sans-serif;
+  color: rgb(51, 51, 51);
+  font-size:20px;
+  line-height:130%;
+}
+
+.finale{
+  font-weight:bold;
+}
+
+.img{
+  margin-bottom:120px;
+  width:100%;
+  border-radius:5%;
+  max-height:500px;
+}
+
+footer{
+  height:60px;
+  background-color:black;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  font-family: Source Sans Pro,sans-serif;
+  font-weight:bold;
+  padding-top:50px;
+}
